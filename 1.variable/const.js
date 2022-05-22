@@ -20,4 +20,13 @@ const apple={
     name:'apple',
     color:'red',
     display:'빨간사과 이미지',
-}
+};
+
+//apple ={}; //이런게 불가능함. 
+apple.name='orange';
+
+
+
+console.log(apple); // 이러면 apple의 이름은 변함 
+
+//객체는 heap이라는 공간에 저장이 됨. apple은 그냥 그 주소를 가르킬 뿐임. 

@@ -16,4 +16,6 @@ let orange = apple; // 0x1234
  
 orange.name = '오렌지';
 console.log(apple);
-console.log(orange);
+console.log(orange); 
+
+//이런식으로 값이 다 변한다! 

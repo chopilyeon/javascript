@@ -4,6 +4,8 @@
 // int variable = 0; 정적으로 결정이 됨 
 
 //자바 스크립트는 할당된 값에 따라서 타입이 변경이 됨. weakly type  ////// strongly type의 차이임 
+//자바 스크립트에도 타입이 있음 대신 weakly한 type임. 
+
 
 let variable;
 console.log(typeof variable);
@@ -19,3 +21,4 @@ console.log(variable);
 
 variable = function(){};
 console.log(typeof variable);
+

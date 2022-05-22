@@ -12,7 +12,7 @@ activaeItem = null; // 활성화된 아이템이 있는 상태!
 
 
 console.log(typeof 123);
-console.log(typeof null); //object가 나오게 됨 
+console.log(typeof null); //object가 나오게 됨 javascript가 object를 메모리상에 만들어서 저장을 함 
 console.log(typeof undefined);
 
 //메모리상에 null이 되어 할당이 됨. 
