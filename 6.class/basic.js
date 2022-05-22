@@ -8,12 +8,15 @@ class Fruit{
         this.name=name;
         this.emoji=emoji;
     }
-    display() { // 여기선 this 안붙여도 됨 //화살표 함수도 써도 되고 안써도 됨
-        console.log(`${this.emoji}+${this.name}`);
-    };
+    // display() { // 여기선 this 안붙여도 됨 //화살표 함수도 써도 되고 안써도 됨
+    //     console.log(`${this.emoji}+${this.name}`);
+    // };
     display = ()=> { // 여기선 this 안붙여도 됨 //화살표 함수도 써도 되고 안써도 됨
         console.log(`${this.emoji}+${this.name}`);
     };
-    
-    return this; // 이건 안써줘도 javascript 엔진이 알아서 해줌. 
 }
+
+//사용하는 방식은 생성자 함수와 동일함 
+
+const apple= new Fruit('apple','good');
+const orange=new Fruit('orange','bad');
