@@ -40,3 +40,5 @@ console.log(+undefined);
 
 console.log(!1); // 1이 가지고 있는 bollean의 반대값이 출력이 됨. 1은 원래 true임. ture를 부정하면 false
 console.log(!!1); // false를 또 부정하므로 1의 원래값인 true가 나옴 boolean이 아닌 값을 boolean값으로 변환하는거임. 
+
+console.log(!!2);

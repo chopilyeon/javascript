@@ -30,3 +30,15 @@ apple.name='orange';
 console.log(apple); // 이러면 apple의 이름은 변함 
 
 //객체는 heap이라는 공간에 저장이 됨. apple은 그냥 그 주소를 가르킬 뿐임. 
+let cal="tt";
+console.log(!!cal);
+console.log(!cal);
+console.log(cal);
+let cal2;
+console.log(cal2);
+console.log(!undefined);
+console.log(!2); //false
+console.log(!!2); //ture
+console.log(!0); //true
+console.log(!!0); //false
+console.log(!!3); //true
